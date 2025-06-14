@@ -20,12 +20,12 @@ function Form() {
 
   return (
     <div>
-      <h2 className="text-5xl">Sentiment Analysis</h2>
-      <div className="flex flex-col bg-red-500 h-96 justify-center items-center">
+      <h2 className="pt-5 text-5xl">Sentiment Analysis</h2>
+      <div className="flex flex-col h-96 justify-center items-center">
         <form
           action=""
           onSubmit={handleSubmit}
-          className="flex flex-col bg-blue-400 w-full items-center gap-5"
+          className="flex flex-col w-full items-center gap-5"
         >
           <input
             type="text"
