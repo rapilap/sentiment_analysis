@@ -1,7 +1,12 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Form from "./components/Form";
 
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <body className="bg-black text-white w-full h-full text-center font-montserrat ">
+      <Form />
+    </body>
+  );
 }
